@@ -209,14 +209,13 @@ ul {
   margin-left: 252px;
   width: 696px;
   height: 120px;
-  
 }
 .container .section-h1-button {
   width: 200px;
   height: 50px;
   margin-top: 30px;
   margin-bottom: 200px;
-  margin-left: 500px ;
+  margin-left: 500px;
   border-radius: 4px;
   border: 0;
 }
@@ -241,7 +240,7 @@ ul {
   margin-bottom: 50px;
 }
 .section2-list {
-display: flex;
+  display: flex;
 }
 .section2-list .list {
   margin-right: 30px;
@@ -249,10 +248,11 @@ display: flex;
 .section2-list-box {
   margin: 0;
   width: 270px;
-height: 368px;
-background: #FFFFFF;
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  height: 368px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .section2-list-box figcaption {
   margin-top: 30px;
@@ -271,6 +271,49 @@ border-radius: 0px 0px 4px 4px;
 .footer-logo {
   padding-top: 50px;
 }
-.footer-adress  {
-margin-top: 20px;
+.footer-adress {
+  margin-top: 20px;
+}
+.section-buttons .container {
+  display: flex;
+}
+.section-buttons-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-buttons-list .button {
+  margin-left: 8px;
+  padding: 6px 22px;
+}
+.wrap .container {
+  display: flex;
+}
+.wrap-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+.figure-box {
+  margin: 0px;
+  border: 1px solid #eeeeee;
+  
+}
+.wrap-list .list {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+  
+}
+
+.figure-box .img-title {
+  margin-left: 24px;
+  margin-top: 20px;
+  
+}
+.figure-box p {
+  margin-left: 24px;
+  margin-bottom: 20px;
+  
 }
